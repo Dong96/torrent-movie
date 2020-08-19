@@ -1,0 +1,46 @@
+version: "3.8"
+services:
+  qbittorrent:
+    image: linuxserver/qbittorrent
+    container_name: qbittorrent
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - UMASK_SET=022
+      - WEBUI_PORT=8080
+    volumes:
+      - downloads-volume:/downloads
+      - downloads-volume:/config
+    ports:
+      - 6881:6881
+      - 6881:6881/udp
+      - 8080:8080
+    restart: unless-stopped
+
+  backend:
+    container_name: backend
+    build: ./backend
+    depends_on:
+      - qbittorrent
+    volumes:
+      - downloads-volume:/downloads
+    ports:
+      - 8081:8081
+
+  front-end:
+    container_name: frontend
+    build: ./frontend
+    ports:
+      - 8083:8083
+
+  encode-service:
+    container_name: encode-service
+    build: ./encode-service
+    volumes:
+      - downloads-volume:/downloads
+    ports:
+      - 80:8082
+
+volumes:
+  downloads-volume:

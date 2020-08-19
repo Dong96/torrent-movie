@@ -1,0 +1,1056 @@
+2020/07/26 00:12:31 main.go:58: json: cannot unmarshal array into Go value of type map[string]main.VideoInfo
+2020/07/26 00:17:26 main.go:35: programs
+2020/07/26 00:17:26 main.go:35: streams
+2020/07/26 00:17:26 main.go:35: format
+2020/07/26 00:17:26 main.go:35: duration
+2020/07/26 00:17:26 main.go:35: bit_rate
+2020/07/26 00:19:02 main.go:35: programs [
+
+    ]
+2020/07/26 00:19:02 main.go:35: streams [
+        {
+            "codec_type": "video"
+        },
+        {
+            "codec_type": "audio",
+            "bit_rate": "640000"
+        }
+    ]
+2020/07/26 00:19:02 main.go:35: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:19:02 main.go:35: duration "30.304000"
+2020/07/26 00:19:02 main.go:35: bit_rate "55318526"
+2020/07/26 00:20:30 main.go:34: streams [
+        {
+            "codec_type": "video"
+        },
+        {
+            "codec_type": "audio",
+            "bit_rate": "640000"
+        }
+    ]
+2020/07/26 00:20:30 main.go:34: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:20:30 main.go:34: duration "30.304000"
+2020/07/26 00:20:30 main.go:34: bit_rate "55318526"
+2020/07/26 00:20:30 main.go:34: programs [
+
+    ]
+2020/07/26 00:22:50 main.go:34: streams [
+        {
+            "codec_type": "video"
+        },
+        {
+            "codec_type": "audio",
+            "bit_rate": "640000"
+        }
+    ]
+2020/07/26 00:22:50 main.go:34: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:22:50 main.go:34: duration "30.304000"
+2020/07/26 00:22:50 main.go:34: bit_rate "55318526"
+2020/07/26 00:22:50 main.go:34: programs [
+
+    ]
+2020/07/26 00:23:38 main.go:35: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:23:57 main.go:35: {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:27:19 main.go:35: {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:27:19 main.go:39: 
+2020/07/26 00:28:20 main.go:36: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:28:20 main.go:40: {   []}
+2020/07/26 00:28:38 main.go:36: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:28:38 main.go:68: json: Unmarshal(non-pointer main.VideoInfo)
+2020/07/26 00:28:46 main.go:36: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:28:46 main.go:40: {   []}
+2020/07/26 00:29:22 main.go:36: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:29:22 main.go:40: {   []}
+2020/07/26 00:31:09 main.go:36: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:31:09 main.go:40: {   []}
+2020/07/26 00:32:33 main.go:36: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:32:33 main.go:40: &{   []}
+2020/07/26 00:32:53 main.go:36: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:32:53 main.go:40: 0xc000006038
+2020/07/26 00:33:05 main.go:36: format {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:33:05 main.go:40: &{   []}
+2020/07/26 00:35:06 main.go:36: {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:35:06 main.go:40: &{   []}
+2020/07/26 00:37:25 main.go:36: {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:37:25 main.go:40: &{   []}
+2020/07/26 00:38:21 main.go:36: {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:38:21 main.go:40: &{ 0  []}
+2020/07/26 00:39:09 main.go:36: {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:39:09 main.go:40: &{ 0  []}
+2020/07/26 00:39:16 main.go:36: {
+        "duration": "30.304000",
+        "bit_rate": "55318526"
+    }
+2020/07/26 00:39:16 main.go:40: &{   []}
+2020/07/26 00:40:35 main.go:36: {
+    "duration": "30.304000",
+    "bit_rate": "55318526"
+  }
+2020/07/26 00:40:35 main.go:40: &{   []}
+2020/07/26 00:44:52 main.go:36: {
+    "duration": "30.304000",
+    "bit_rate": "55318526"
+  }
+2020/07/26 00:44:52 main.go:69: unexpected end of JSON input
+2020/07/26 00:45:20 main.go:36: {
+    "duration": "30.304000",
+    "bit_rate": "55318526"
+  }
+2020/07/26 00:45:20 main.go:69: unexpected end of JSON input
+2020/07/26 00:46:53 main.go:36: {
+    "duration": "30.304000",
+    "bit_rate": "55318526"
+  }
+2020/07/26 00:46:53 main.go:70: unexpected end of JSON input
+2020/07/26 00:47:11 main.go:36: {
+    "duration": "30.304000",
+    "bit_rate": "55318526"
+  }
+2020/07/26 00:47:11 main.go:71: unexpected end of JSON input
+2020/07/26 00:48:34 main.go:34: {
+    "duration": "30.304000",
+    "bit_rate": "55318526"
+  }
+2020/07/26 00:48:34 main.go:34: 
+2020/07/26 00:48:34 main.go:67: unexpected end of JSON input
+2020/07/26 00:49:06 main.go:34: {
+    "duration": "30.304000",
+    "bit_rate": "55318526"
+  }
+2020/07/26 00:49:06 main.go:34: 
+2020/07/26 00:49:06 main.go:67: unexpected end of JSON input
+2020/07/26 00:49:56 main.go:34: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 00:49:56 main.go:34: 
+2020/07/26 00:49:56 main.go:52: unexpected end of JSON input
+2020/07/26 00:50:31 main.go:34: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 00:50:31 main.go:34: 
+2020/07/26 00:50:31 main.go:53: unexpected end of JSON input
+2020/07/26 00:51:22 main.go:34: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 00:51:22 main.go:35: [{"codec_type":"video"},{"codec_type":"audio","bit_rate":"640000"}]
+2020/07/26 00:51:22 main.go:34: 
+2020/07/26 00:51:22 main.go:35: 
+2020/07/26 00:51:22 main.go:54: unexpected end of JSON input
+2020/07/26 00:52:48 main.go:36: {
+    "duration": "30.304000",
+    "bit_rate": "55318526"
+  }
+2020/07/26 00:52:48 main.go:72: unexpected end of JSON input
+2020/07/26 00:53:56 main.go:36: [123 10 32 32 32 32 34 100 117 114 97 116 105 111 110 34 58 32 34 51 48 46 51 48 52 48 48 48 34 44 10 32 32 32 32 34 98 105 116 95 114 97 116 101 34 58 32 34 53 53 51 49 56 53 50 54 34 10 32 32 125]
+2020/07/26 00:53:56 main.go:72: unexpected end of JSON input
+2020/07/26 00:54:08 main.go:36: {
+    "duration": "30.304000",
+    "bit_rate": "55318526"
+  }
+2020/07/26 00:54:08 main.go:72: unexpected end of JSON input
+2020/07/26 00:54:41 main.go:36: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 00:54:41 main.go:57: unexpected end of JSON input
+2020/07/26 00:55:07 main.go:36: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 00:55:07 main.go:45: 
+2020/07/26 00:55:07 main.go:58: unexpected end of JSON input
+2020/07/26 00:56:11 main.go:36: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 00:56:11 main.go:45: map[bit_rate:[34 53 53 51 49 56 53 50 54 34] duration:[34 51 48 46 51 48 52 48 48 48 34]]
+2020/07/26 00:56:11 main.go:58: unexpected end of JSON input
+2020/07/26 00:57:35 main.go:35: programs
+2020/07/26 00:57:35 main.go:35: streams
+2020/07/26 00:57:35 main.go:35: format
+2020/07/26 00:57:35 main.go:37: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 00:57:35 main.go:35: duration
+2020/07/26 00:57:35 main.go:35: bit_rate
+2020/07/26 00:57:35 main.go:46: 
+2020/07/26 00:57:35 main.go:59: unexpected end of JSON input
+2020/07/26 00:57:59 main.go:35: programs
+2020/07/26 00:57:59 main.go:35: streams
+2020/07/26 00:57:59 main.go:35: format
+2020/07/26 00:57:59 main.go:37: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 00:57:59 main.go:35: duration
+2020/07/26 00:57:59 main.go:35: bit_rate
+2020/07/26 00:57:59 main.go:46: 
+2020/07/26 00:57:59 main.go:59: unexpected end of JSON input
+2020/07/26 00:59:55 main.go:35: programs
+2020/07/26 00:59:55 main.go:35: streams
+2020/07/26 00:59:55 main.go:35: format
+2020/07/26 00:59:55 main.go:37: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 00:59:55 main.go:35: duration
+2020/07/26 00:59:55 main.go:35: bit_rate
+2020/07/26 00:59:55 main.go:46: []
+2020/07/26 00:59:55 main.go:59: unexpected end of JSON input
+2020/07/26 01:02:05 main.go:35: programs
+2020/07/26 01:02:05 main.go:35: streams
+2020/07/26 01:02:05 main.go:35: format
+2020/07/26 01:02:05 main.go:37: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 01:02:05 main.go:35: duration
+2020/07/26 01:02:05 main.go:35: bit_rate
+2020/07/26 01:02:05 main.go:46: []
+2020/07/26 01:02:05 main.go:59: unexpected end of JSON input
+2020/07/26 01:03:55 main.go:35: programs
+2020/07/26 01:03:55 main.go:35: streams
+2020/07/26 01:03:55 main.go:35: format
+2020/07/26 01:04:50 main.go:37: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 01:04:55 main.go:35: duration
+2020/07/26 01:04:55 main.go:35: bit_rate
+2020/07/26 01:04:55 main.go:46: []
+2020/07/26 01:05:16 main.go:59: unexpected end of JSON input
+2020/07/26 01:06:00 main.go:35: format
+2020/07/26 01:06:00 main.go:37: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 01:06:00 main.go:35: duration
+2020/07/26 01:06:00 main.go:35: bit_rate
+2020/07/26 01:06:06 main.go:46: []
+2020/07/26 01:06:59 main.go:59: unexpected end of JSON input
+2020/07/26 01:07:21 main.go:35: programs
+2020/07/26 01:07:23 main.go:35: streams
+2020/07/26 01:07:24 main.go:35: format
+2020/07/26 01:07:28 main.go:37: {"duration":"30.304000","bit_rate":"55318526"}
+2020/07/26 01:07:44 main.go:35: duration
+2020/07/26 01:07:46 main.go:35: bit_rate
+2020/07/26 01:07:46 main.go:46: []
+2020/07/26 01:07:46 main.go:59: unexpected end of JSON input
+2020/07/26 01:25:16 main.go:34: [123 34 100 117 114 97 116 105 111 110 34 58 34 51 48 46 51 48 52 48 48 48 34 44 34 98 105 116 95 114 97 116 101 34 58 34 53 53 51 49 56 53 50 54 34 125]
+2020/08/05 02:20:29 server.go:34: Server start at : 8082
+::1 - - [05/Aug/2020:02:21:27 +0700] "GET / HTTP/1.1" 404 19 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+::1 - - [05/Aug/2020:02:21:28 +0700] "GET /favicon.ico HTTP/1.1" 404 19 "http://localhost:8082/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+2020/08/05 02:23:21 server.go:49: Shutdown successfull.
+2020/08/05 02:25:58 server.go:34: Server start at : 8082
+2020/08/05 02:27:29 server.go:49: Shutdown successfull.
+2020/08/05 02:37:20 server.go:34: Server start at : 8082
+2020/08/05 02:37:30 encode.go:148: Timeout, send stop signal!
+2020/08/05 02:37:30 server.go:49: Shutdown successfull.
+2020/08/05 03:23:17 server.go:35: Server start at : 8082
+2020/08/05 03:23:27 encode.go:148: Timeout, send stop signal!
+2020/08/05 03:24:18 server.go:35: Server start at : 8082
+2020/08/05 03:24:28 encode.go:148: Timeout, send stop signal!
+2020/08/05 03:24:28 server.go:50: Shutdown successfull.
+2020/08/06 00:26:39 server.go:35: Server start at : 8082
+2020/08/06 00:26:40 encode.go:137: 0
+2020/08/06 00:26:41 encode.go:137: 0
+2020/08/06 00:26:42 encode.go:137: 0
+2020/08/06 00:26:43 encode.go:137: 0
+2020/08/06 00:26:44 encode.go:137: 0
+2020/08/06 00:26:45 encode.go:137: 0
+2020/08/06 00:26:46 encode.go:137: 0
+2020/08/06 00:26:47 encode.go:137: 0
+2020/08/06 00:26:48 encode.go:137: 0
+2020/08/06 00:26:49 encode.go:137: 0
+2020/08/06 00:26:49 encode.go:150: Timeout, send shutdown signal!
+2020/08/06 00:26:49 server.go:50: Shutdown successfull.
+2020/08/06 00:27:08 server.go:35: Server start at : 8082
+2020/08/06 00:27:09 encode.go:137: 0
+2020/08/06 00:27:10 encode.go:137: 0
+2020/08/06 00:27:11 encode.go:137: 0
+2020/08/06 00:27:12 encode.go:137: 0
+2020/08/06 00:27:13 encode.go:137: 0
+2020/08/06 00:27:14 encode.go:137: 0
+2020/08/06 00:27:15 encode.go:137: 0
+2020/08/06 00:27:16 encode.go:137: 0
+2020/08/06 00:27:17 encode.go:137: 0
+2020/08/06 00:27:18 encode.go:137: 0
+2020/08/06 00:27:18 encode.go:150: Timeout, send shutdown signal!
+2020/08/06 00:27:18 server.go:50: Shutdown successfull.
+2020/08/06 00:28:14 server.go:35: Server start at : 8082
+2020/08/06 00:28:15 encode.go:137: 0
+2020/08/06 00:28:16 encode.go:137: 0
+2020/08/06 00:28:17 encode.go:137: 0
+127.0.0.1 - - [06/Aug/2020:00:28:17 +0700] "POST /encode/jellyfish HTTP/1.1" 405 0 "" "curl/7.68.0"
+2020/08/06 00:28:18 encode.go:137: 0
+2020/08/06 00:28:19 encode.go:137: 0
+2020/08/06 00:28:20 encode.go:137: 0
+2020/08/06 00:28:21 encode.go:137: 0
+2020/08/06 00:28:22 encode.go:137: 0
+2020/08/06 00:28:23 encode.go:137: 0
+2020/08/06 00:28:24 encode.go:137: 0
+2020/08/06 00:28:24 encode.go:150: Timeout, send shutdown signal!
+2020/08/06 00:28:24 server.go:50: Shutdown successfull.
+2020/08/06 00:28:35 server.go:35: Server start at : 8082
+2020/08/06 00:28:36 encode.go:137: 0
+2020/08/06 00:28:37 encode.go:137: 0
+2020/08/06 00:28:38 encode.go:137: 0
+127.0.0.1 - - [06/Aug/2020:00:28:38 +0700] "GET /encode/jellyfish HTTP/1.1" 404 43 "" "curl/7.68.0"
+2020/08/06 00:28:39 encode.go:137: 0
+2020/08/06 00:28:40 encode.go:137: 0
+2020/08/06 00:28:41 encode.go:137: 0
+2020/08/06 00:28:42 encode.go:137: 0
+2020/08/06 00:28:43 encode.go:137: 0
+2020/08/06 00:28:44 encode.go:137: 0
+2020/08/06 00:28:45 encode.go:137: 0
+2020/08/06 00:28:45 encode.go:150: Timeout, send shutdown signal!
+2020/08/06 00:28:45 server.go:50: Shutdown successfull.
+2020/08/06 00:29:18 server.go:35: Server start at : 8082
+2020/08/06 00:29:19 encode.go:137: 0
+2020/08/06 00:29:20 encode.go:137: 0
+127.0.0.1 - - [06/Aug/2020:00:29:21 +0700] "GET /encode/Big%20Buck%20Bunny HTTP/1.1" 404 48 "" "curl/7.68.0"
+2020/08/06 00:29:21 encode.go:137: 0
+2020/08/06 00:29:22 encode.go:137: 0
+2020/08/06 00:29:23 encode.go:137: 0
+2020/08/06 00:29:24 encode.go:137: 0
+2020/08/06 00:29:25 encode.go:137: 0
+2020/08/06 00:29:26 encode.go:137: 0
+2020/08/06 00:29:27 encode.go:137: 0
+2020/08/06 00:29:28 encode.go:137: 0
+2020/08/06 00:29:28 encode.go:150: Timeout, send shutdown signal!
+2020/08/06 00:29:28 server.go:50: Shutdown successfull.
+2020/08/06 00:37:19 server.go:35: Server start at : 8082
+2020/08/06 00:37:20 encode.go:137: 0
+2020/08/06 00:37:21 encode.go:137: 0
+2020/08/06 00:37:22 encode.go:137: 0
+2020/08/06 00:37:23 encode.go:137: 0
+127.0.0.1 - - [06/Aug/2020:00:37:23 +0700] "GET /encode/Big%20Buck%20Bunny HTTP/1.1" 404 48 "" "curl/7.68.0"
+2020/08/06 00:37:24 encode.go:137: 0
+2020/08/06 00:37:25 encode.go:137: 0
+2020/08/06 00:37:26 encode.go:137: 0
+2020/08/06 00:37:27 encode.go:137: 0
+2020/08/06 00:37:28 encode.go:137: 0
+2020/08/06 00:37:29 encode.go:137: 0
+2020/08/06 00:37:29 encode.go:150: Timeout, send shutdown signal!
+2020/08/06 00:37:29 server.go:50: Shutdown successfull.
+2020/08/06 00:38:00 server.go:35: Server start at : 8082
+2020/08/06 00:38:01 encode.go:137: 0
+2020/08/06 00:38:02 encode.go:137: 0
+2020/08/06 00:38:03 encode.go:137: 0
+2020/08/06 00:38:04 server.go:97: Cannot get videoinfo of jellyfish.mkv, error: fork/exec ./info.sh: no such file or directory
+127.0.0.1 - - [06/Aug/2020:00:38:04 +0700] "GET /encode/jellyfish HTTP/1.1" 500 0 "" "curl/7.68.0"
+2020/08/06 00:38:04 encode.go:137: 0
+2020/08/06 00:38:05 encode.go:137: 0
+2020/08/06 00:38:06 encode.go:137: 0
+2020/08/06 00:38:07 encode.go:137: 0
+2020/08/06 00:38:08 encode.go:137: 0
+2020/08/06 00:38:09 encode.go:137: 0
+2020/08/06 00:38:10 encode.go:137: 0
+2020/08/06 00:38:10 encode.go:150: Timeout, send shutdown signal!
+2020/08/06 00:38:10 server.go:50: Shutdown successfull.
+2020/08/06 00:42:32 server.go:35: Server start at : 8082
+2020/08/06 00:42:33 encode.go:138: 0
+2020/08/06 00:42:34 encode.go:138: 0
+2020/08/06 00:42:35 encode.go:138: 0
+2020/08/06 00:42:36 server.go:97: Cannot get videoinfo of jellyfish.mkv, error: fork/exec ~/wsl-workspace/go-service.com/encode-service/encode/info.sh: no such file or directory
+127.0.0.1 - - [06/Aug/2020:00:42:36 +0700] "GET /encode/jellyfish HTTP/1.1" 500 0 "" "curl/7.68.0"
+2020/08/06 00:42:36 encode.go:138: 0
+2020/08/06 00:42:37 encode.go:138: 0
+2020/08/06 00:42:38 encode.go:138: 0
+2020/08/06 00:42:39 encode.go:138: 0
+2020/08/06 00:42:40 encode.go:138: 0
+2020/08/06 00:42:41 encode.go:138: 0
+2020/08/06 00:42:42 encode.go:138: 0
+2020/08/06 00:42:42 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 00:42:42 server.go:50: Shutdown successfull.
+2020/08/06 00:49:13 server.go:35: Server start at : 8082
+2020/08/06 00:49:14 encode.go:138: 0
+2020/08/06 00:49:15 encode.go:138: 0
+2020/08/06 00:49:16 encode.go:138: 0
+2020/08/06 00:49:17 server.go:97: Cannot get videoinfo of jellyfish.mkv, error: fork/exec home/dong/wsl-workspace/go-service.com/encode-service/encode/info.sh: no such file or directory
+127.0.0.1 - - [06/Aug/2020:00:49:17 +0700] "GET /encode/jellyfish HTTP/1.1" 500 0 "" "curl/7.68.0"
+2020/08/06 00:49:17 encode.go:138: 0
+2020/08/06 00:49:18 encode.go:138: 0
+2020/08/06 00:49:19 encode.go:138: 0
+2020/08/06 00:49:20 encode.go:138: 0
+2020/08/06 00:49:21 encode.go:138: 0
+2020/08/06 00:49:22 encode.go:138: 0
+2020/08/06 00:49:23 encode.go:138: 0
+2020/08/06 00:49:23 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 00:49:23 server.go:50: Shutdown successfull.
+2020/08/06 00:49:35 server.go:35: Server start at : 8082
+2020/08/06 00:49:36 encode.go:138: 0
+2020/08/06 00:49:37 encode.go:138: 0
+2020/08/06 00:49:38 encode.go:138: 0
+2020/08/06 00:49:39 encode.go:138: 0
+2020/08/06 00:49:40 encode.go:70: &{{jellyfish.mkv 0:00:30.030000 2984383 11202628} [{0 video h264   0 1920 1080 { }}]}
+2020/08/06 00:49:40 encode.go:201: abc:  1
+2020/08/06 00:49:40 server.go:97: fork/exec ~/wsl-workspace/go-service.com/encode-service/encode.sh: no such file or directory
+127.0.0.1 - - [06/Aug/2020:00:49:40 +0700] "GET /encode/jellyfish HTTP/1.1" 500 0 "" "curl/7.68.0"
+2020/08/06 00:49:40 encode.go:138: 1
+2020/08/06 00:49:40 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:41 encode.go:138: 1
+2020/08/06 00:49:41 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:42 encode.go:138: 1
+2020/08/06 00:49:42 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:43 encode.go:138: 1
+2020/08/06 00:49:43 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:44 encode.go:138: 1
+2020/08/06 00:49:44 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:45 encode.go:138: 1
+2020/08/06 00:49:45 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:46 encode.go:138: 1
+2020/08/06 00:49:46 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:47 encode.go:138: 1
+2020/08/06 00:49:47 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:48 encode.go:138: 1
+2020/08/06 00:49:48 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:49 encode.go:138: 1
+2020/08/06 00:49:49 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:50 encode.go:138: 1
+2020/08/06 00:49:50 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:51 encode.go:138: 1
+2020/08/06 00:49:51 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:52 encode.go:138: 1
+2020/08/06 00:49:52 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:53 encode.go:138: 1
+2020/08/06 00:49:53 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:54 encode.go:138: 1
+2020/08/06 00:49:54 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:55 encode.go:138: 1
+2020/08/06 00:49:55 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:56 encode.go:138: 1
+2020/08/06 00:49:56 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:57 encode.go:138: 1
+2020/08/06 00:49:57 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:58 encode.go:138: 1
+2020/08/06 00:49:58 encode.go:140: Reset time shutdown!
+2020/08/06 00:49:59 encode.go:138: 1
+2020/08/06 00:49:59 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:00 encode.go:138: 1
+2020/08/06 00:50:00 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:01 encode.go:138: 1
+2020/08/06 00:50:01 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:02 encode.go:138: 1
+2020/08/06 00:50:02 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:03 encode.go:138: 1
+2020/08/06 00:50:03 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:04 encode.go:138: 1
+2020/08/06 00:50:04 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:05 encode.go:138: 1
+2020/08/06 00:50:05 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:06 encode.go:138: 1
+2020/08/06 00:50:06 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:07 encode.go:138: 1
+2020/08/06 00:50:07 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:08 encode.go:138: 1
+2020/08/06 00:50:08 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:09 encode.go:138: 1
+2020/08/06 00:50:09 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:10 encode.go:138: 1
+2020/08/06 00:50:10 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:11 encode.go:138: 1
+2020/08/06 00:50:11 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:12 encode.go:138: 1
+2020/08/06 00:50:12 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:13 encode.go:138: 1
+2020/08/06 00:50:13 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:14 encode.go:138: 1
+2020/08/06 00:50:14 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:15 encode.go:138: 1
+2020/08/06 00:50:15 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:16 encode.go:138: 1
+2020/08/06 00:50:16 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:17 encode.go:138: 1
+2020/08/06 00:50:17 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:18 encode.go:138: 1
+2020/08/06 00:50:18 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:19 encode.go:138: 1
+2020/08/06 00:50:19 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:20 encode.go:138: 1
+2020/08/06 00:50:20 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:21 encode.go:138: 1
+2020/08/06 00:50:21 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:22 encode.go:138: 1
+2020/08/06 00:50:22 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:23 encode.go:138: 1
+2020/08/06 00:50:23 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:24 encode.go:138: 1
+2020/08/06 00:50:24 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:25 encode.go:138: 1
+2020/08/06 00:50:25 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:26 encode.go:138: 1
+2020/08/06 00:50:26 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:27 encode.go:138: 1
+2020/08/06 00:50:27 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:28 encode.go:138: 1
+2020/08/06 00:50:28 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:29 encode.go:138: 1
+2020/08/06 00:50:29 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:30 encode.go:138: 1
+2020/08/06 00:50:30 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:31 encode.go:138: 1
+2020/08/06 00:50:31 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:32 encode.go:138: 1
+2020/08/06 00:50:32 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:33 encode.go:138: 1
+2020/08/06 00:50:33 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:34 encode.go:138: 1
+2020/08/06 00:50:34 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:35 encode.go:138: 1
+2020/08/06 00:50:35 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:36 encode.go:138: 1
+2020/08/06 00:50:36 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:37 encode.go:138: 1
+2020/08/06 00:50:37 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:38 encode.go:138: 1
+2020/08/06 00:50:38 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:39 encode.go:138: 1
+2020/08/06 00:50:39 encode.go:140: Reset time shutdown!
+2020/08/06 00:50:40 encode.go:138: 1
+2020/08/06 00:50:40 encode.go:140: Reset time shutdown!
+2020/08/06 00:55:31 server.go:35: Server start at : 8082
+2020/08/06 00:55:32 encode.go:138: 0
+2020/08/06 00:55:33 encode.go:138: 0
+2020/08/06 00:55:34 encode.go:138: 0
+2020/08/06 00:55:34 encode.go:70: &{{jellyfish.mkv 0:00:30.030000 2984383 11202628} [{0 video h264   0 1920 1080 { }}]}
+2020/08/06 00:55:34 encode.go:201: abc:  1
+2020/08/06 00:55:34 server.go:97: fork/exec home/dong/wsl-workspace/go-service.com/encode-service/encode.sh: no such file or directory
+127.0.0.1 - - [06/Aug/2020:00:55:34 +0700] "GET /encode/jellyfish HTTP/1.1" 500 0 "" "curl/7.68.0"
+2020/08/06 00:55:35 encode.go:138: 0
+2020/08/06 00:55:36 encode.go:138: 0
+2020/08/06 00:55:37 encode.go:138: 0
+2020/08/06 00:55:38 encode.go:138: 0
+2020/08/06 00:55:39 encode.go:138: 0
+2020/08/06 00:55:40 encode.go:138: 0
+2020/08/06 00:55:41 encode.go:138: 0
+2020/08/06 00:55:41 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 00:55:41 server.go:50: Shutdown successfull.
+2020/08/06 00:55:55 server.go:35: Server start at : 8082
+2020/08/06 00:55:56 encode.go:138: 0
+2020/08/06 00:55:57 encode.go:138: 0
+2020/08/06 00:55:58 encode.go:138: 0
+2020/08/06 00:55:59 encode.go:138: 0
+2020/08/06 00:56:00 encode.go:138: 0
+2020/08/06 00:56:00 encode.go:70: &{{jellyfish.mkv 0:00:30.030000 2984383 11202628} [{0 video h264   0 1920 1080 { }}]}
+2020/08/06 00:56:00 encode.go:201: abc:  1
+2020/08/06 00:56:00 server.go:97: fork/exec /home/dong/wsl-workspace/go-service.com/encode-service/encode.sh: no such file or directory
+127.0.0.1 - - [06/Aug/2020:00:55:59 +0700] "GET /encode/jellyfish HTTP/1.1" 500 0 "" "curl/7.68.0"
+2020/08/06 00:56:01 encode.go:138: 0
+2020/08/06 00:56:02 encode.go:138: 0
+2020/08/06 00:56:03 encode.go:138: 0
+2020/08/06 00:56:04 encode.go:138: 0
+2020/08/06 00:56:05 encode.go:138: 0
+2020/08/06 00:56:05 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 00:56:05 server.go:50: Shutdown successfull.
+2020/08/06 00:57:32 server.go:35: Server start at : 8082
+2020/08/06 00:57:33 encode.go:138: 0
+2020/08/06 00:57:34 encode.go:138: 0
+2020/08/06 00:57:35 encode.go:138: 0
+2020/08/06 00:57:36 encode.go:138: 0
+2020/08/06 00:57:37 encode.go:138: 0
+2020/08/06 00:57:38 encode.go:70: &{{jellyfish.mkv 0:00:30.030000 2984383 11202628} [{0 video h264   0 1920 1080 { }}]}
+2020/08/06 00:57:38 encode.go:201: abc:  1
+127.0.0.1 - - [06/Aug/2020:00:57:38 +0700] "GET /encode/jellyfish HTTP/1.1" 200 0 "" "curl/7.68.0"
+2020/08/06 00:57:38 encode.go:138: 0
+2020/08/06 00:57:39 encode.go:138: 0
+2020/08/06 00:57:40 encode.go:138: 0
+2020/08/06 00:57:41 encode.go:138: 0
+2020/08/06 00:57:42 encode.go:138: 0
+2020/08/06 00:57:42 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 00:57:42 server.go:50: Shutdown successfull.
+2020/08/06 01:08:17 server.go:35: Server start at : 8082
+2020/08/06 01:08:18 encode.go:138: 0
+2020/08/06 01:08:19 encode.go:138: 0
+2020/08/06 01:08:20 encode.go:138: 0
+2020/08/06 01:08:21 encode.go:138: 0
+2020/08/06 01:08:22 encode.go:138: 0
+2020/08/06 01:08:22 encode.go:70: &{{jellyfish.mkv 0:00:30.030000 2984383 11202628} [{0 video h264   0 1920 1080 { }}]}
+2020/08/06 01:08:22 encode.go:201: abc:  1
+127.0.0.1 - - [06/Aug/2020:01:08:22 +0700] "GET /encode/jellyfish HTTP/1.1" 200 0 "" "curl/7.68.0"
+2020/08/06 01:08:23 encode.go:138: 0
+2020/08/06 01:08:24 encode.go:138: 0
+2020/08/06 01:08:25 encode.go:138: 0
+2020/08/06 01:08:26 encode.go:138: 0
+2020/08/06 01:08:27 encode.go:138: 0
+2020/08/06 01:08:27 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 01:08:27 server.go:50: Shutdown successfull.
+2020/08/06 01:09:04 server.go:35: Server start at : 8082
+2020/08/06 01:09:05 encode.go:138: 0
+2020/08/06 01:09:06 encode.go:138: 0
+2020/08/06 01:09:07 encode.go:138: 0
+2020/08/06 01:09:07 encode.go:70: &{{jellyfish.mkv 0:00:30.030000 2984383 11202628} [{0 video h264   0 1920 1080 { }}]}
+2020/08/06 01:09:07 encode.go:201: abc:  1
+127.0.0.1 - - [06/Aug/2020:01:09:07 +0700] "GET /encode/jellyfish HTTP/1.1" 200 0 "" "curl/7.68.0"
+2020/08/06 01:09:08 encode.go:138: 0
+2020/08/06 01:09:09 encode.go:138: 0
+2020/08/06 01:09:10 encode.go:138: 0
+2020/08/06 01:09:11 encode.go:138: 0
+2020/08/06 01:09:12 encode.go:138: 0
+2020/08/06 01:09:13 encode.go:138: 0
+2020/08/06 01:09:14 encode.go:138: 0
+2020/08/06 01:09:15 encode.go:138: 0
+2020/08/06 01:09:16 encode.go:138: 0
+2020/08/06 01:09:17 encode.go:138: 0
+2020/08/06 01:09:18 encode.go:138: 0
+2020/08/06 01:09:19 encode.go:138: 0
+2020/08/06 01:09:20 encode.go:138: 0
+2020/08/06 01:09:21 encode.go:138: 0
+2020/08/06 01:09:22 encode.go:138: 0
+2020/08/06 01:09:23 encode.go:138: 0
+2020/08/06 01:09:24 encode.go:138: 0
+2020/08/06 01:09:25 encode.go:138: 0
+2020/08/06 01:09:26 encode.go:138: 0
+2020/08/06 01:09:27 encode.go:138: 0
+2020/08/06 01:09:28 encode.go:138: 0
+2020/08/06 01:09:29 encode.go:138: 0
+2020/08/06 01:09:30 encode.go:138: 0
+2020/08/06 01:09:31 encode.go:138: 0
+2020/08/06 01:09:32 encode.go:138: 0
+2020/08/06 01:09:33 encode.go:138: 0
+2020/08/06 01:13:52 server.go:35: Server start at : 8082
+2020/08/06 01:13:53 encode.go:138: 0
+2020/08/06 01:13:54 encode.go:138: 0
+2020/08/06 01:13:55 encode.go:138: 0
+2020/08/06 01:13:56 encode.go:70: &{{jellyfish.mkv 0:00:30.030000 2984383 11202628} [{0 video h264   0 1920 1080 { }}]}
+2020/08/06 01:13:56 encode.go:201: abc:  1
+127.0.0.1 - - [06/Aug/2020:01:13:56 +0700] "GET /encode/jellyfish HTTP/1.1" 200 0 "" "curl/7.68.0"
+2020/08/06 01:13:56 encode.go:138: 0
+2020/08/06 01:13:57 encode.go:138: 0
+2020/08/06 01:13:58 encode.go:138: 0
+2020/08/06 01:13:59 encode.go:138: 0
+2020/08/06 01:14:00 encode.go:138: 0
+2020/08/06 01:14:01 encode.go:138: 0
+2020/08/06 01:14:02 encode.go:138: 0
+2020/08/06 01:14:03 encode.go:138: 0
+2020/08/06 01:14:04 encode.go:138: 0
+2020/08/06 01:14:05 encode.go:138: 0
+2020/08/06 01:14:06 encode.go:138: 0
+2020/08/06 01:14:07 encode.go:138: 0
+2020/08/06 01:14:08 encode.go:138: 0
+2020/08/06 01:14:09 encode.go:138: 0
+2020/08/06 01:14:10 encode.go:138: 0
+2020/08/06 01:14:11 encode.go:138: 0
+2020/08/06 01:14:12 encode.go:138: 0
+2020/08/06 01:14:13 encode.go:138: 0
+2020/08/06 01:14:14 encode.go:138: 0
+2020/08/06 01:14:15 encode.go:138: 0
+2020/08/06 01:14:16 encode.go:138: 0
+2020/08/06 01:14:17 encode.go:138: 0
+2020/08/06 01:14:18 encode.go:138: 0
+2020/08/06 01:14:19 encode.go:138: 0
+2020/08/06 01:14:20 encode.go:138: 0
+2020/08/06 01:14:21 encode.go:138: 0
+2020/08/06 01:14:22 encode.go:138: 0
+2020/08/06 01:14:23 encode.go:138: 0
+2020/08/06 01:14:24 encode.go:138: 0
+2020/08/06 01:14:25 encode.go:138: 0
+2020/08/06 01:14:26 encode.go:138: 0
+2020/08/06 01:14:27 encode.go:138: 0
+2020/08/06 01:14:28 encode.go:138: 0
+2020/08/06 01:14:29 encode.go:138: 0
+2020/08/06 01:14:30 encode.go:138: 0
+2020/08/06 01:14:31 encode.go:138: 0
+2020/08/06 01:14:32 encode.go:138: 0
+2020/08/06 01:14:33 encode.go:138: 0
+2020/08/06 01:14:34 encode.go:138: 0
+2020/08/06 01:14:35 encode.go:138: 0
+2020/08/06 01:14:36 encode.go:138: 0
+2020/08/06 01:14:37 encode.go:138: 0
+2020/08/06 01:14:38 encode.go:138: 0
+2020/08/06 01:14:39 encode.go:138: 0
+2020/08/06 01:14:40 encode.go:138: 0
+2020/08/06 01:14:41 encode.go:138: 0
+2020/08/06 01:14:42 encode.go:138: 0
+2020/08/06 01:14:43 encode.go:138: 0
+2020/08/06 01:14:44 encode.go:138: 0
+2020/08/06 01:14:45 encode.go:138: 0
+2020/08/06 01:14:46 encode.go:138: 0
+2020/08/06 01:14:47 encode.go:138: 0
+2020/08/06 01:14:48 encode.go:138: 0
+2020/08/06 01:14:49 encode.go:138: 0
+2020/08/06 01:14:50 encode.go:138: 0
+2020/08/06 01:14:51 encode.go:138: 0
+2020/08/06 01:14:52 encode.go:138: 0
+2020/08/06 01:14:53 encode.go:138: 0
+2020/08/06 01:14:54 encode.go:138: 0
+2020/08/06 01:14:55 encode.go:138: 0
+2020/08/06 01:14:56 encode.go:138: 0
+2020/08/06 01:14:57 encode.go:138: 0
+2020/08/06 01:14:58 encode.go:138: 0
+2020/08/06 01:14:59 encode.go:138: 0
+2020/08/06 01:15:00 encode.go:138: 0
+2020/08/06 01:15:01 encode.go:138: 0
+2020/08/06 01:15:02 encode.go:138: 0
+2020/08/06 01:15:03 encode.go:138: 0
+2020/08/06 01:15:04 encode.go:138: 0
+2020/08/06 01:15:05 encode.go:138: 0
+2020/08/06 01:15:06 encode.go:138: 0
+2020/08/06 01:15:07 encode.go:138: 0
+2020/08/06 01:15:08 encode.go:138: 0
+2020/08/06 01:15:09 encode.go:138: 0
+2020/08/06 01:15:10 encode.go:138: 0
+2020/08/06 01:15:11 encode.go:138: 0
+2020/08/06 01:15:12 encode.go:138: 0
+2020/08/06 01:15:13 encode.go:138: 0
+2020/08/06 01:15:14 encode.go:138: 0
+2020/08/06 01:15:15 encode.go:138: 0
+2020/08/06 01:15:16 encode.go:138: 0
+2020/08/06 01:15:17 encode.go:138: 0
+2020/08/06 01:15:18 encode.go:138: 0
+2020/08/06 01:15:19 encode.go:138: 0
+2020/08/06 01:15:20 encode.go:138: 0
+2020/08/06 01:15:21 encode.go:138: 0
+2020/08/06 01:15:22 encode.go:138: 0
+2020/08/06 01:15:23 encode.go:138: 0
+2020/08/06 01:15:24 encode.go:138: 0
+2020/08/06 01:15:25 encode.go:138: 0
+2020/08/06 01:15:26 encode.go:138: 0
+2020/08/06 01:15:27 encode.go:138: 0
+2020/08/06 01:15:28 encode.go:138: 0
+2020/08/06 01:15:29 encode.go:138: 0
+2020/08/06 01:15:30 encode.go:138: 0
+2020/08/06 01:15:31 encode.go:138: 0
+2020/08/06 01:15:32 encode.go:138: 0
+2020/08/06 01:15:32 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 01:15:32 server.go:50: Shutdown successfull.
+2020/08/06 01:17:58 server.go:35: Server start at : 8082
+2020/08/06 01:17:59 encode.go:138: 0
+2020/08/06 01:18:00 encode.go:138: 0
+2020/08/06 01:18:01 encode.go:138: 0
+2020/08/06 01:18:02 encode.go:138: 0
+2020/08/06 01:18:03 encode.go:138: 0
+2020/08/06 01:18:04 encode.go:138: 0
+2020/08/06 01:18:05 encode.go:138: 0
+2020/08/06 01:18:06 encode.go:138: 0
+2020/08/06 01:18:07 encode.go:138: 0
+2020/08/06 01:18:08 encode.go:138: 0
+2020/08/06 01:18:09 encode.go:138: 0
+2020/08/06 01:18:10 encode.go:138: 0
+2020/08/06 01:18:11 encode.go:138: 0
+2020/08/06 01:18:12 encode.go:138: 0
+2020/08/06 01:18:13 encode.go:138: 0
+2020/08/06 01:18:14 encode.go:138: 0
+2020/08/06 01:18:15 encode.go:138: 0
+2020/08/06 01:18:16 encode.go:138: 0
+2020/08/06 01:18:17 encode.go:138: 0
+2020/08/06 01:18:18 encode.go:138: 0
+2020/08/06 01:18:19 encode.go:138: 0
+2020/08/06 01:18:20 encode.go:138: 0
+2020/08/06 01:18:21 encode.go:138: 0
+2020/08/06 01:18:22 encode.go:138: 0
+2020/08/06 01:18:23 encode.go:138: 0
+2020/08/06 01:18:24 encode.go:138: 0
+2020/08/06 01:18:25 encode.go:138: 0
+2020/08/06 01:18:26 encode.go:138: 0
+2020/08/06 01:18:27 encode.go:138: 0
+2020/08/06 01:18:28 encode.go:138: 0
+2020/08/06 01:18:29 encode.go:138: 0
+2020/08/06 01:18:30 encode.go:138: 0
+2020/08/06 01:18:31 encode.go:138: 0
+2020/08/06 01:18:31 encode.go:70: &{{jellyfish.mkv 0:00:30.030000 2984383 11202628} [{0 video h264   0 1920 1080 { }}]}
+2020/08/06 01:18:31 encode.go:201: abc:  1
+127.0.0.1 - - [06/Aug/2020:01:18:31 +0700] "GET /encode/jellyfish HTTP/1.1" 200 0 "" "curl/7.68.0"
+2020/08/06 01:18:31 encode.go:206: asdasdasd123123
+2020/08/06 01:18:32 encode.go:138: 0
+2020/08/06 01:18:33 encode.go:138: 0
+2020/08/06 01:18:34 encode.go:138: 0
+2020/08/06 01:18:35 encode.go:138: 0
+2020/08/06 01:18:36 encode.go:138: 0
+2020/08/06 01:18:37 encode.go:138: 0
+2020/08/06 01:18:38 encode.go:138: 0
+2020/08/06 01:18:39 encode.go:138: 0
+2020/08/06 01:18:40 encode.go:138: 0
+2020/08/06 01:18:41 encode.go:138: 0
+2020/08/06 01:18:42 encode.go:138: 0
+2020/08/06 01:18:43 encode.go:138: 0
+2020/08/06 01:18:44 encode.go:138: 0
+2020/08/06 01:18:45 encode.go:138: 0
+2020/08/06 01:18:46 encode.go:138: 0
+2020/08/06 01:18:47 encode.go:138: 0
+2020/08/06 01:18:48 encode.go:138: 0
+2020/08/06 01:18:49 encode.go:138: 0
+2020/08/06 01:18:50 encode.go:138: 0
+2020/08/06 01:18:51 encode.go:138: 0
+2020/08/06 01:18:52 encode.go:138: 0
+2020/08/06 01:18:53 encode.go:138: 0
+2020/08/06 01:18:54 encode.go:138: 0
+2020/08/06 01:18:55 encode.go:138: 0
+2020/08/06 01:18:56 encode.go:138: 0
+2020/08/06 01:18:57 encode.go:138: 0
+2020/08/06 01:18:58 encode.go:138: 0
+2020/08/06 01:18:59 encode.go:138: 0
+2020/08/06 01:19:00 encode.go:138: 0
+2020/08/06 01:19:01 encode.go:138: 0
+2020/08/06 01:19:02 encode.go:138: 0
+2020/08/06 01:19:03 encode.go:138: 0
+2020/08/06 01:19:04 encode.go:138: 0
+2020/08/06 01:19:05 encode.go:138: 0
+2020/08/06 01:19:06 encode.go:138: 0
+2020/08/06 01:19:07 encode.go:138: 0
+2020/08/06 01:19:08 encode.go:138: 0
+2020/08/06 01:19:09 encode.go:138: 0
+2020/08/06 01:19:10 encode.go:138: 0
+2020/08/06 01:19:11 encode.go:138: 0
+2020/08/06 01:19:12 encode.go:138: 0
+2020/08/06 01:19:13 encode.go:138: 0
+2020/08/06 01:19:14 encode.go:138: 0
+2020/08/06 01:19:15 encode.go:138: 0
+2020/08/06 01:19:16 encode.go:138: 0
+2020/08/06 01:19:17 encode.go:138: 0
+2020/08/06 01:19:18 encode.go:138: 0
+2020/08/06 01:19:19 encode.go:138: 0
+2020/08/06 01:19:20 encode.go:138: 0
+2020/08/06 01:19:21 encode.go:138: 0
+2020/08/06 01:19:22 encode.go:138: 0
+2020/08/06 01:19:23 encode.go:138: 0
+2020/08/06 01:19:24 encode.go:138: 0
+2020/08/06 01:19:25 encode.go:138: 0
+2020/08/06 01:19:26 encode.go:138: 0
+2020/08/06 01:19:27 encode.go:138: 0
+2020/08/06 01:19:28 encode.go:138: 0
+2020/08/06 01:19:29 encode.go:138: 0
+2020/08/06 01:19:30 encode.go:138: 0
+2020/08/06 01:19:31 encode.go:138: 0
+2020/08/06 01:19:32 encode.go:138: 0
+2020/08/06 01:19:33 encode.go:138: 0
+2020/08/06 01:19:34 encode.go:138: 0
+2020/08/06 01:19:35 encode.go:138: 0
+2020/08/06 01:19:36 encode.go:138: 0
+2020/08/06 01:19:37 encode.go:138: 0
+2020/08/06 01:19:38 encode.go:138: 0
+2020/08/06 01:19:38 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 01:19:38 server.go:50: Shutdown successfull.
+2020/08/06 01:22:00 server.go:35: Server start at : 8082
+2020/08/06 01:22:01 encode.go:138: 0
+2020/08/06 01:22:02 encode.go:138: 0
+2020/08/06 01:22:03 encode.go:138: 0
+2020/08/06 01:22:04 encode.go:138: 0
+2020/08/06 01:22:05 encode.go:138: 0
+2020/08/06 01:22:06 encode.go:138: 0
+2020/08/06 01:22:07 encode.go:138: 0
+2020/08/06 01:22:08 encode.go:70: &{{jellyfish.mkv 0:00:30.030000 2984383 11202628} [{0 video h264   0 1920 1080 { }}]}
+2020/08/06 01:22:08 encode.go:201: abc:  1
+127.0.0.1 - - [06/Aug/2020:01:22:07 +0700] "GET /encode/jellyfish HTTP/1.1" 200 0 "" "curl/7.68.0"
+2020/08/06 01:22:08 encode.go:206: asdasdasd123123
+2020/08/06 01:22:08 encode.go:138: 0
+2020/08/06 01:22:09 encode.go:138: 0
+2020/08/06 01:22:10 encode.go:138: 0
+2020/08/06 01:22:11 encode.go:138: 0
+2020/08/06 01:22:12 encode.go:138: 0
+2020/08/06 01:22:13 encode.go:138: 0
+2020/08/06 01:22:14 encode.go:138: 0
+2020/08/06 01:22:15 encode.go:138: 0
+2020/08/06 01:22:16 encode.go:138: 0
+2020/08/06 01:22:17 encode.go:138: 0
+2020/08/06 01:22:18 encode.go:138: 0
+2020/08/06 01:22:19 encode.go:138: 0
+2020/08/06 01:22:20 encode.go:138: 0
+2020/08/06 01:22:21 encode.go:138: 0
+2020/08/06 01:22:22 encode.go:138: 0
+2020/08/06 01:22:23 encode.go:138: 0
+2020/08/06 01:22:24 encode.go:138: 0
+2020/08/06 01:22:25 encode.go:138: 0
+2020/08/06 01:22:26 encode.go:138: 0
+2020/08/06 01:22:27 encode.go:138: 0
+2020/08/06 01:22:28 encode.go:138: 0
+2020/08/06 01:22:29 encode.go:138: 0
+2020/08/06 01:22:30 encode.go:138: 0
+2020/08/06 01:22:31 encode.go:138: 0
+2020/08/06 01:22:32 encode.go:138: 0
+2020/08/06 01:22:33 encode.go:138: 0
+2020/08/06 01:22:34 encode.go:138: 0
+2020/08/06 01:22:35 encode.go:138: 0
+2020/08/06 01:22:36 encode.go:138: 0
+2020/08/06 01:22:37 encode.go:138: 0
+2020/08/06 01:22:38 encode.go:138: 0
+2020/08/06 01:22:39 encode.go:138: 0
+2020/08/06 01:22:40 encode.go:138: 0
+2020/08/06 01:22:41 encode.go:138: 0
+2020/08/06 01:22:42 encode.go:138: 0
+2020/08/06 01:22:43 encode.go:138: 0
+2020/08/06 01:22:44 encode.go:138: 0
+2020/08/06 01:22:45 encode.go:138: 0
+2020/08/06 01:22:46 encode.go:138: 0
+2020/08/06 01:22:47 encode.go:138: 0
+2020/08/06 01:22:48 encode.go:138: 0
+2020/08/06 01:22:49 encode.go:138: 0
+2020/08/06 01:22:50 encode.go:138: 0
+2020/08/06 01:22:51 encode.go:138: 0
+2020/08/06 01:22:52 encode.go:138: 0
+2020/08/06 01:22:53 encode.go:138: 0
+2020/08/06 01:22:54 encode.go:138: 0
+2020/08/06 01:22:55 encode.go:138: 0
+2020/08/06 01:22:56 encode.go:138: 0
+2020/08/06 01:22:57 encode.go:138: 0
+2020/08/06 01:22:58 encode.go:138: 0
+2020/08/06 01:22:59 encode.go:138: 0
+2020/08/06 01:23:00 encode.go:138: 0
+2020/08/06 01:23:01 encode.go:138: 0
+2020/08/06 01:23:02 encode.go:138: 0
+2020/08/06 01:23:03 encode.go:138: 0
+2020/08/06 01:23:04 encode.go:138: 0
+2020/08/06 01:23:05 encode.go:138: 0
+2020/08/06 01:23:06 encode.go:138: 0
+2020/08/06 01:23:07 encode.go:138: 0
+2020/08/06 01:23:08 encode.go:138: 0
+2020/08/06 01:23:09 encode.go:138: 0
+2020/08/06 01:23:10 encode.go:138: 0
+2020/08/06 01:23:11 encode.go:138: 0
+2020/08/06 01:23:12 encode.go:138: 0
+2020/08/06 01:23:13 encode.go:138: 0
+2020/08/06 01:23:14 encode.go:138: 0
+2020/08/06 01:23:15 encode.go:138: 0
+2020/08/06 01:23:16 encode.go:138: 0
+2020/08/06 01:23:17 encode.go:138: 0
+2020/08/06 01:23:18 encode.go:138: 0
+2020/08/06 01:23:19 encode.go:138: 0
+2020/08/06 01:23:20 encode.go:138: 0
+2020/08/06 01:23:21 encode.go:138: 0
+2020/08/06 01:23:22 encode.go:138: 0
+2020/08/06 01:23:23 encode.go:138: 0
+2020/08/06 01:46:01 server.go:35: Server start at : 8082
+2020/08/06 01:46:02 encode.go:138: 0
+2020/08/06 01:46:03 encode.go:138: 0
+2020/08/06 01:46:04 encode.go:138: 0
+2020/08/06 01:46:05 encode.go:138: 0
+2020/08/06 01:46:06 encode.go:138: 0
+2020/08/06 01:46:07 encode.go:138: 0
+2020/08/06 01:46:08 encode.go:138: 0
+2020/08/06 01:46:09 encode.go:138: 0
+2020/08/06 01:46:10 encode.go:138: 0
+2020/08/06 01:46:11 encode.go:138: 0
+2020/08/06 01:46:11 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 01:46:11 server.go:50: Shutdown successfull.
+2020/08/06 01:46:18 server.go:35: Server start at : 8082
+2020/08/06 01:46:19 encode.go:138: 0
+2020/08/06 01:46:20 encode.go:138: 0
+2020/08/06 01:46:21 encode.go:138: 0
+2020/08/06 01:46:22 encode.go:138: 0
+2020/08/06 01:46:23 encode.go:70: &{{jellyfish.mkv 0:00:30.304000 55318526 209546578} [{0 video h264   0 1920 1080 {55172798 00:00:30.030000000}} {1 audio ac3  640000 6 0 0 {640000 00:00:30.304000000}}]}
+2020/08/06 01:46:23 encode.go:201: abc:  1
+127.0.0.1 - - [06/Aug/2020:01:46:23 +0700] "GET /encode/jellyfish HTTP/1.1" 200 0 "" "curl/7.68.0"
+2020/08/06 01:46:23 encode.go:206: asdasdasd123123
+2020/08/06 01:46:23 encode.go:138: 1
+2020/08/06 01:46:23 encode.go:140: Reset time shutdown!
+2020/08/06 01:46:24 encode.go:138: 0
+2020/08/06 01:46:25 encode.go:138: 0
+2020/08/06 01:46:26 encode.go:138: 0
+2020/08/06 01:46:27 encode.go:138: 0
+2020/08/06 01:46:28 encode.go:138: 0
+2020/08/06 01:46:29 encode.go:138: 0
+2020/08/06 01:46:30 encode.go:138: 0
+2020/08/06 01:46:31 encode.go:138: 0
+2020/08/06 01:46:32 encode.go:138: 0
+2020/08/06 01:46:33 encode.go:138: 0
+2020/08/06 01:46:33 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 01:46:33 server.go:50: Shutdown successfull.
+2020/08/06 02:04:17 server.go:35: Server start at : 8082
+2020/08/06 02:04:18 encode.go:138: 0
+2020/08/06 02:04:19 encode.go:138: 0
+2020/08/06 02:04:20 encode.go:138: 0
+2020/08/06 02:04:21 encode.go:138: 0
+2020/08/06 02:04:22 encode.go:70: &{{jellyfish.mkv 0:00:30.304000 55318526 209546578} [{0 video h264   0 1920 1080 {55172798 00:00:30.030000000}} {1 audio ac3  640000 6 0 0 {640000 00:00:30.304000000}}]}
+2020/08/06 02:04:22 encode.go:201: abc:  1
+127.0.0.1 - - [06/Aug/2020:02:04:21 +0700] "GET /encode/jellyfish HTTP/1.1" 200 0 "" "curl/7.68.0"
+2020/08/06 02:04:22 encode.go:206: asdasdasd123123
+2020/08/06 02:04:22 encode.go:138: 1
+2020/08/06 02:04:22 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:23 encode.go:138: 1
+2020/08/06 02:04:23 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:24 encode.go:138: 1
+2020/08/06 02:04:24 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:25 encode.go:138: 1
+2020/08/06 02:04:25 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:26 encode.go:138: 1
+2020/08/06 02:04:26 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:27 encode.go:138: 1
+2020/08/06 02:04:27 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:28 encode.go:138: 1
+2020/08/06 02:04:28 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:29 encode.go:138: 1
+2020/08/06 02:04:29 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:30 encode.go:138: 1
+2020/08/06 02:04:30 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:31 encode.go:138: 1
+2020/08/06 02:04:31 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:32 encode.go:138: 1
+2020/08/06 02:04:32 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:33 encode.go:138: 1
+2020/08/06 02:04:33 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:34 encode.go:138: 1
+2020/08/06 02:04:34 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:35 encode.go:138: 1
+2020/08/06 02:04:35 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:36 encode.go:138: 1
+2020/08/06 02:04:36 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:37 encode.go:138: 1
+2020/08/06 02:04:37 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:38 encode.go:138: 1
+2020/08/06 02:04:38 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:39 encode.go:138: 1
+2020/08/06 02:04:39 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:40 encode.go:138: 1
+2020/08/06 02:04:40 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:41 encode.go:138: 1
+2020/08/06 02:04:41 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:42 encode.go:138: 1
+2020/08/06 02:04:42 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:43 encode.go:138: 1
+2020/08/06 02:04:43 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:44 encode.go:138: 1
+2020/08/06 02:04:44 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:45 encode.go:138: 1
+2020/08/06 02:04:45 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:46 encode.go:138: 1
+2020/08/06 02:04:46 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:47 encode.go:138: 1
+2020/08/06 02:04:47 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:48 encode.go:138: 1
+2020/08/06 02:04:48 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:49 encode.go:138: 1
+2020/08/06 02:04:49 encode.go:140: Reset time shutdown!
+2020/08/06 02:04:50 encode.go:138: 0
+2020/08/06 02:04:51 encode.go:138: 0
+2020/08/06 02:04:52 encode.go:138: 0
+2020/08/06 02:04:53 encode.go:138: 0
+2020/08/06 02:04:54 encode.go:138: 0
+2020/08/06 02:04:55 encode.go:138: 0
+2020/08/06 02:04:56 encode.go:138: 0
+2020/08/06 02:04:57 encode.go:138: 0
+2020/08/06 02:04:58 encode.go:138: 0
+2020/08/06 02:04:59 encode.go:138: 0
+2020/08/06 02:04:59 encode.go:151: Timeout, send shutdown signal!
+2020/08/06 02:04:59 server.go:50: Shutdown successfull.
+2020/08/09 18:13:10 server.go:35: Server start at : 8082
+2020/08/09 18:13:13 server.go:97: Cannot get videoinfo of jellyfish.mkv, error: fork/exec ./info.sh: no such file or directory
+::1 - - [09/Aug/2020:18:13:13 +0700] "GET /encode/jellyfish HTTP/1.1" 500 0 "" "curl/7.67.0"
+2020/08/09 18:13:20 encode.go:147: Timeout, send shutdown signal!
+2020/08/09 18:13:20 server.go:50: Shutdown successfull.
+2020/08/09 18:45:28 server.go:35: Server start at : 8082
+2020/08/09 18:45:31 server.go:97: unlinkat /downloads/jellyfish/dash/block.txt: permission denied
+::1 - - [09/Aug/2020:18:45:31 +0700] "GET /encode/jellyfish HTTP/1.1" 500 0 "" "curl/7.67.0"
+2020/08/09 18:45:38 encode.go:147: Timeout, send shutdown signal!
+2020/08/09 18:45:38 server.go:50: Shutdown successfull.

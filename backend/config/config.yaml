@@ -1,0 +1,22 @@
+port: :8081
+torrentDomain: http://qbittorrent:8080
+username: admin
+password: adminadmin
+
+qbittorrent:
+  base: http://qbittorrent:8080/api/v2
+  login: /auth/login
+  sync: /sync/maindata
+  torrents:
+    info: /torrents/info
+    add: /torrents/add
+    delete: /torrents/delete
+    pause: /torrents/pause
+    resume: /torrents/resume
+
+encode:
+  # base: http://encode-service:8082
+  base: http://encode.southeastasia.azurecontainer.io
+  encode: /encode/{movie}
+  stop: /encode/stop/{movie}
+  progress: /progress # ?movies=name

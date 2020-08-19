@@ -1,0 +1,86 @@
+ffmpeg -i alita.battle.angel.2019.1080p.bluray.x264-sparks.mkv -c:v libvpx-vp9 -b:v 8000k -tile-columns 4 `
+         -frame-parallel 1 -keyint_min 90 -g 90 -f webm -dash 1 `
+         -c:a libvorbis alita.battle.angel.2019.1080p.bluray.x264-sparks.webm
+
+ffmpeg -i alita.battle.angel.2019.1080p.bluray.x264-sparks.mkv -c:a libvorbis -c:v copy -q:a 9.0 alita.battle.angel.2019.1080p.bluray.x264-sparks.mp4
+
+sample_muxer -i movie.webm -o movie_muxed.webm -output_cues 1 `
+               -cues_before_clusters 1
+
+ffprobe -hide_banner
+
+------------------------------------------------------------
+ffmpeg -i trailer.mov -y -acodec aac -ac 2 -ar 44100 -vcodec libx264 -f dash 
+-preset veryfast -keyint_min 60 -g 60 -sc_threshold 0 -profile:v main -use_template 1 -use_timeline 1 -b_strategy 0 -bf 1 -map 0:a -b:a 96k 
+-filter_complex [0]format=pix_fmts=yuv420p[temp0];[temp0]scale=-2:240[A0] -map [A0]:v -b:v:0 350k 
+-filter_complex [0]format=pix_fmts=yuv420p[temp1];[temp1]scale=-2:480[A1] -map [A1]:v -b:v:1 700k 
+-filter_complex [0]format=pix_fmts=yuv420p[temp2];[temp2]scale=-2:720[A2] -map [A2]:v -b:v:2 2500k 
+trailer\trailer.mpd -acodec aac -ac 2 -ar 44100 -b:a 128k -vcodec libx264 -b:v 400k 
+-filter:v scale=w=trunc(oh*a/2)*2:h=480 -f mp4 -preset veryfast -movflags +faststart 
+-keyint_min 60 -refs 5 -g 60 -pix_fmt yuv420p -sc_threshold 0 -profile:v main trailer\trailer.mp4
+------------------------------------------------------------
+
+ffmpeg -i test.mkv -y -c:a aac -ac 2 -ar 44100 -c:v libx264 \
+-preset veryfast -keyint_min 60 -g 60 -sc_threshold 0 -profile:v main -use_template 1 -use_timeline 1 -b_strategy 0 -bf 1 -map 0:a -b:a 96k \
+-filter_complex "[0]format=pix_fmts=yuv420p[temp0];[temp0]scale=-2:360[A0]" -map [A0]:v -b:v:0 1000k \
+-filter_complex "[0]format=pix_fmts=yuv420p[temp1];[temp1]scale=-2:1080[A1]" -map [A1]:v -b:v:1 10000k \
+-f dash dash/test.mpd
+
+ffmpeg -i test.mkv -c:v copy -c:a aac -f dash -seg_duration 2 -use_template 1 -use_timeline 1 test.mpd
+
+ffmpeg -i "C:\Dong\Projects\movies\go-service.com\torrent-service\downloads\Alita.Battle.Angel.2019.1080p.BluRay.x264-SPARKS[rarbg]\New folder\test.mkv" -y -c:a aac -ac 2 -ar 44100 -c:v libx264 \
+-preset veryfast -keyint_min 60 -g 60 -sc_threshold 0 -profile:v main -use_template 1 -use_timeline 1 -b_strategy 0 -bf 1 -map 0:a -b:a 96k \
+-filter_complex "[0]format=pix_fmts=yuv420p[temp0];[temp0]scale=-2:360[A0]" -map [A0]:v -b:v:0 1000k \
+-filter_complex "[0]format=pix_fmts=yuv420p[temp1];[temp1]scale=-2:1080[A1]" -map [A1]:v -b:v:1 10000k \
+-f dash "C:\Dong\Projects\movies\go-service.com\torrent-service\downloads\Alita.Battle.Angel.2019.1080p.BluRay.x264-SPARKS[rarbg]\newfolder\dash\test.mpd"
+
+ffmpeg -i "New folder\test.mkv" -y -c:a aac -ac 2 -c:v libx264 `
+-preset veryfast -keyint_min 60 -g 60 -sc_threshold 0 -profile:v main -use_template 1 -use_timeline 1 -b_strategy 0 -bf 1 -map 0:a -b:a 96k `
+-filter_complex [0]format=pix_fmts=yuv420p[temp0];[temp0]scale=-2:360[A0] -map [A0]:v -b:v:0 1000k `
+-filter_complex [0]format=pix_fmts=yuv420p[temp1];[temp1]scale=-2:1080[A1] -map [A1]:v -b:v:1 10000k `
+-f dash dash/test.mpd
+
+ffmpeg -i test.mkv -y -c:a aac -ac 2 -c:v libx264 `
+-preset veryfast -keyint_min 60 -g 60 -sc_threshold 0 -profile:v main -use_template 1 -use_timeline 1 -b_strategy 0 -map 0:a -b:a 96k `
+-filter_complex [0]format=pix_fmts=yuv420p[temp0];[temp0]scale=-2:360[A0] -map [A0]:v -b:v:0 1000k `
+-filter_complex [0]format=pix_fmts=yuv420p[temp1];[temp1]scale=-2:1080[A1] -map [A1]:v -b:v:1 10000k `
+-f dash dash/test.mpd
+
+ffmpeg -i test.mkv -preset veryfast -c:v libvpx-vp9 -s 1920x1080 -b:v 10M -keyint_min 60 -g 60 ${VP9_DASH_PARAMS} -an -f webm -dash 1 video_1920x1080_10m.webm
+
+ffmpeg -i test.mkv -c:a libvorbis -b:a 1M -vn -f webm -dash 1 test_audio.webm
+
+ffmpeg `
+ -f webm_dash_manifest -i video_1920x1080_10m.webm `
+ -f webm_dash_manifest -i test_audio.webm `
+ -c copy -map 0 -map 1 `
+ -f webm_dash_manifest `
+ -adaptation_sets "id=0,streams=0 id=1,streams=1" `
+ manifest.mpd
+
+ffmpeg -i test.mkv -c:v copy -c:a aac -b:a 1M -sc_threshold 0 -b_strategy 0 \
+-map 0:v -map 0:a \
+-b:v:0 50M -s 1920x1080 \
+-use_timeline 1 -use_template 1 \
+-f dash dash/test.mpd
+
+ffmpeg -i test.mkv -y -c:a aac -ac 2 -c:v libx264 \
+-preset veryfast -keyint_min 60 -g 60 -sc_threshold 0 -profile:v main -use_template 1 -use_timeline 1 -b_strategy 0 \
+-map 0:a -b:a 500k \
+-filter_complex "[0]format=pix_fmts=yuv420p[temp0];[temp0]scale=-2:360[A0]" -map [A0]:v -b:v:0 1M \
+-filter_complex "[0]format=pix_fmts=yuv420p[temp1];[temp1]scale=-2:1080[A1]" -map [A1]:v -b:v:1 10M \
+-f dash dash/test.mpd
+
+ffmpeg -i test.mkv -c:a libvorbis -q:a 9.0 \
+-c:v libvpx-vp9 -b:v 55M -g 150 -preset veryfast -tile-columns 4 -frame-parallel 1 \
+-use_template 1 -use_timeline 1 -b_strategy 0 \
+-f dash dash/test.mpd 1> block.txt 2>&1
+
+ffmpeg -i test.mkv -c:a libvorbis -q:a 9.0 \
+-c:v libvpx-vp9 -b:v 10M -tile-columns 2 -g 150 -threads 8 -quality good -crf 31 \
+-pass 1 -speed 4 dash/test.webm && \
+ffmpeg -i test.mkv -c:a libvorbis -q:a 9.0 \
+-c:v libvpx-vp9 -b:v 10M -tile-columns 3 -g 150 -threads 8 -quality good -crf 31 \
+-pass 2 -speed 4 -y dash/test.webm
+
+ognpromg -b:v and using -crf
